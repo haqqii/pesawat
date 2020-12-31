@@ -1,3 +1,6 @@
-<?php
-    $conn = mysqli_connect('localhost', 'root', '', 'tiket');
-?>
+<?php 
+	$host = "localhost";
+	$username = "root";
+	$password = "";
+	$db = "tiket";
+	$connect = mysqli_connect($host, $username, $password, $db) or die (mysqli_error());
